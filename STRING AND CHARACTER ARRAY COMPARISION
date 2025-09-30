@@ -1,0 +1,96 @@
+string introduction
+#include<iostream>
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+    //code
+    //1
+    // char str[]={'a','b','c','\0'};
+    // cout<<str<<endl;
+
+
+    //2
+    // char str[100];
+    // cout<<"input a string:"<< endl;
+    // cin>> str;
+    // cout<<"output:";
+    // cout<< str<< endl;
+
+
+    //3
+    // char str[12];
+    //  cout<<"input a char arr:"<< endl;
+    //  cin.getline(str,12);
+    // cout<<"output:";
+    //  cout<< str<< endl;
+    //  cout<<strlen(str)<<endl;
+    //  for(char ch : str){
+    //      cout<<ch<<"   ";
+         
+    //  }
+    //  cout<< endl;
+
+
+    //4
+    // char str[] = "PRANAV KUMAR SHARMA";
+    // int length=0;
+    // for(int i=0;str[i]!='\0';i++){
+    //     length++;
+    // }
+    // cout<< length << endl;
+
+
+    //5
+    // string str = "pranav kumar sharma";// dynamic => runtime resize //contiguous in nature
+    // cout<< str<< endl;
+    // str="Hello";
+    // cout<<str<<endl;
+    // but char arr is not dynamic in nature con not  be resized
+
+
+    // concatenation
+    // string str1= "Pranav";
+    // string str2= "Kumar";
+    // string str3= "Sharma";
+    // string str4 = str1+" "+str2+" "+str3;
+    // cout<<str4<<endl;
+
+
+    //string comparision
+    // string str1= "pranav";
+    // string str2 ="pranav";
+    // string str3= "kumar";
+    // cout<<(str1==str2)<<endl;
+    // cout<<(str2==str3)<<endl;
+    // cout<<(str2>str3)<<endl;//laxographical comparision based on first letter
+    // cout<< str1.length();
+
+
+    // input of string
+    // cout<< "Input String"<<endl;
+    // string str;
+    // cin>>str;
+    // cout<<str<<endl;
+
+
+    //input of string is with spaces
+    // string str2;
+    // cout<<"input of string :"<<endl;
+    // getline(cin,str2);
+    // cout << str2<< endl;
+
+
+    // loops in string
+    // string str = "pranav kumar sharma";
+    // for(int i=0;i<str.length();i++){
+    //     cout << str[i] <<" ";
+    // }
+
+    // for each loop in string
+    // cout << endl;
+    // for(char ch : str){
+    //      cout<< ch << " ";
+    // }
+     return 0;
+}
